@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Hedeby
+TryExec=hedeby
+Exec=hedeby
+Type=Application
+NoDisplay=true

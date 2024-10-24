@@ -1,0 +1,23 @@
+Front-End for unison synchronization tool.
+
+## Install
+
+    $ sudo make install
+
+To run hedeby on startup, copy the .application file:
+
+```
+ln -sf /usr/local/share/applications/hedeby.desktop \
+  ~/.config/autostart/
+```
+
+## TODO
+
+- [ ] Command line arguments to hedeby
+  - [ ] --help, --version
+  - [ ] --minimized
+- [ ] Only run when network is connected.
+  Listen to networkmanager d-bus.
+- [ ] Synchronize on suspend
+  Delay the suspend and start or continue the synchronization
+
